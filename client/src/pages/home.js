@@ -4,6 +4,7 @@ import SubHero from "../components/sub-hero";
 import Section from "../sections/section";
 import SectionCard from "../sections/section-card";
 import SectionTwo from "../sections/section-two";
+import SectionThree from "../sections/section-three";
 
 
 const Home = () => {
@@ -15,6 +16,7 @@ const Home = () => {
                 <Section />
                 <SectionCard />
                 <SectionTwo />
+                <SectionThree />
             </div>
         </div>   
     );
