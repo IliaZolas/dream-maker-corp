@@ -3,6 +3,7 @@ import Tech from "../components/tech";
 import GundamFade from "../assets/gundam-fade.png"
 import RedLineLeft from "../assets/red-line-left.png"
 import RedLineRight from "../assets/red-line-right.png"
+import LongDividerDown from "../assets/long-divider-down.png"
 
 const SectionThree = () => {
     return (
@@ -43,6 +44,9 @@ const SectionThree = () => {
             <div>
                 <p className="dream-exe-left">DREAM.EXE COMPLETE</p>
                 <img src={RedLineRight} alt="" />
+            </div>
+            <div className="long-divider-down-container">
+                <img src={LongDividerDown} alt="" />
             </div>
         </div>
     );

@@ -33,6 +33,7 @@
 }
 
 .space-around {
+  display: flex;
   justify-content: space-between;
 }
 
@@ -51,4 +52,12 @@
 .flex-wrap {
   display: flex;
   flex-wrap: wrap;
+}
+
+.relative {
+  position: relative;
+}
+
+.hidden {
+  display: none;
 }
