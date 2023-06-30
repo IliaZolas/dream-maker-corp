@@ -1,17 +1,17 @@
 import "./hero.scss"
-import { Application } from '@splinetool/runtime';
 import Logo from "../assets/dreammakercorp-logo-large.png"
+
+import Spline from '@splinetool/react-spline';
+
 
 const Hero = () => {
 
-    // const canvas = document.getElementById("canvas3d");
-    // const hero = new Application(canvas);
-    // hero.load('https://prod.spline.design/Ag5gbm8Q1-a73vQ6/scene.splinecode');
+
     
     return (
         <div className="hero-container">
             <div className="hero-canvas" id="canvas3d">
-
+            <Spline scene="https://prod.spline.design/ELSuz5fstj-YST-Q/scene.splinecode" />
             </div>
             <div>
                 <div className="hero-blurb">
